@@ -1,5 +1,5 @@
 // TODO: Include packages needed for this application
-
+const rGenerator = require('./rGenerator');
 
 // TODO: Create an array of questions for user input
 var q1="Enter the name of your application", 
@@ -13,15 +13,16 @@ var q1="Enter the name of your application",
     q9="Include screenshots from your application",
     q10="Please provide the link to the deployed application";
 const questions = [q1,q2,q3,q4,q5,q6,q8,q9,q10];
+console.log(rGenerator.displayQs());
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+//function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {
+//function init() {
     //display message:"Please enter the answers to the following questions, 
     //press enter after each answer if there is no answer just press enter."
-}
+//}
 
 // Function call to initialize app
-init();
+//init();
