@@ -30,15 +30,21 @@ for(var i=0; i<9; i++) {
 
 //creates a generateReadme function to get the answers from the user and generate the Readme file
 const generateReadme = ({ ans0, ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8 }) =>
-`#  ${ans0}
-    ${ans1}
-    ${ans2}
-    ${ans3}
-    ${ans4}
-    ${ans5}
-    ${ans6}
-    ${ans7}
-    ${ans8}
+`# ** ${ans0}**
+## Motivation
+    ${ans1}.
+## How It works
+    ${ans2}.
+    ${ans3}.
+    ${ans4}.
+## Challenges
+    ${ans5}.
+## Future Features
+    ${ans6}.
+## Screenshots
+    ${ans7}.
+## Link to deployed application
+    ${ans8}.
     `;
 
 
