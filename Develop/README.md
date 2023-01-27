@@ -1,21 +1,21 @@
 
-# a
+# Readme File Generator
 ## Motivation
-q
+Make the process of creating, writing and saving a Readme file easier by automating it.
 ## How It works
-w
+It keeps track of all the points to include in the readme file so you dont forget.
 ## What it solves
-e
+First it prompts the user with questions about the app/project he is creating. When the user answers all the questions the readme file is created, and the answers are added to the file content. After that, the application saves it in the readme file for the user to retrieve later.
 ## Outstanding App's characteristics
-r
+The code is easy to maintain, and the quality of the readme file formatting is good.
 ## Challenges
-t
+No knowing about a better way to make a readme file.
 ## What was learnt
-y
+How to better present and format a readme file.
 ## Future Features
-u
+Implement adding more images.
 ## Screenshots
-![]()
+![photo1](./assets/imgs/screenshot.png)
 ## Link to deployed application
-lklkl
+url
     
