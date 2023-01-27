@@ -3,22 +3,27 @@ const inquirer = require('inquirer');
 const { writeFile } = require('fs').promises;
 
 //Create an array of questions for user input
-var q1="Enter the name of your application", 
-    q2="What was your motivation?",
-    q3="What problem does it solve?",
-    q4="Describe step by step how your app interacts with the user",
-    q5="What makes your project stand out?",
-    q6="Describe the challenges in making the app?",
-    q7="Is there any features you plan to implement in the future?",
-    q8="Include screenshots from your application",
-    q9="Please provide the link to the deployed application";
+var introMessage="Plese start writing your answers with Capital letter. "+
+"When done finish with a dot. Press enter to continue";
+var q0=introMessage;
+var q1="Enter the name of your application: ", 
+    q2="What was your motivation?: ",
+    q3="What problem does it solve?: ",
+    q4="Describe step by step how your app interacts with the user: ",
+    q5="What makes your project stand out?:",
+    q6="Describe the challenges in making the app?: ",
+    q7="what did you learn in making this app?: "
+    q8="Is there any features you plan to implement in the future?: ",
+    q9="Include screenshots from your application. Otherwise press Enter. First write a brief title for the image: ",
+    q10="write the relative path for the image saved in he same readme file branch. Otherwise press enter: ",
+    q11="Please provide the link to the deployed application: ";
 
-const questions = [q1,q2,q3,q4,q5,q6,q7,q8,q9];
+const questions = [q0,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11];
 
 //function to display questions and add answers to generatReadme
 const promptUser = () => {
 prompts = []
-for(var i=0; i<9; i++) {
+for(var i=0; i<12; i++) {
     prompts.push({
         type: 'input',
         name: 'ans' + i,
@@ -29,22 +34,27 @@ for(var i=0; i<9; i++) {
 };
 
 //creates a generateReadme function to get the answers from the user and generate the Readme file
-const generateReadme = ({ ans0, ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8 }) =>
-`# ** ${ans0}**
+const generateReadme = ({ ans0, ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8,ans9,ans10,ans11 }) =>
+`${ans0}
+# ${ans1}
 ## Motivation
-    ${ans1}.
+${ans2}
 ## How It works
-    ${ans2}.
-    ${ans3}.
-    ${ans4}.
+${ans3}
+## What it solves
+${ans4}
+## Outstanding App's characteristics
+${ans5}
 ## Challenges
-    ${ans5}.
+${ans6}
+## What was learnt
+${ans7}
 ## Future Features
-    ${ans6}.
+${ans8}
 ## Screenshots
-    ${ans7}.
+![${ans9}](${ans10})
 ## Link to deployed application
-    ${ans8}.
+${ans11}
     `;
 
 
