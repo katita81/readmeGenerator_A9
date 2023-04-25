@@ -48,7 +48,7 @@ ${ans2}
 4. [Usage](#usage)
 6. [Contributions](#contributions)
 7. [Test](#tests)
-8. [Questions and issues](#questions-and-issues)
+8. [Questions and/or issues](#questions-and-issues)
 9. [User details](#user-details)
 10. [Screenshots](#screenshots)
 11. [Link to deployed application](#link-to-deployed-application)
@@ -83,9 +83,9 @@ ${ans10}
 ## Screenshots
 ![${ans11}](${ans12})
 ## Link to deployed application
-'<${ans13}'>
+<${ans13}>
 ## Link to the walk through video
-'<${ans14}>' `;
+<${ans14}> `;
 
 
 
