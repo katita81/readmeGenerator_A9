@@ -58,9 +58,13 @@ ${ans2}
 ## Installation
 ${ans3}
 ## License
+### Badge
 ${renderLicenseBadge(ans4)}
+License Link
 ${renderLicenseLink(ans4)}
+License Section
 ${renderLicenseSection(ans4)}
+
 ## Usage
 ${ans5}
 ## Contributions
