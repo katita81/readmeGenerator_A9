@@ -11,7 +11,7 @@ It keeps track of all the points to include in the readme file so you dont forge
 
 ## What it solves
 
-First it prompts the user with questions about the app/project he is creating. When the user answers all the questions the readme file is created, and the answers are added to the file content. After that, the application saves it in the readme file for the user to retrieve later.
+First it prompts the user with questions about the app/project he is creating.The user must start writing with capital letter and press enter at the end. When the user answers all the questions the readme file is created, and the answers are added to the file content. After that, the application saves it in the readme file for the user to retrieve later.
 
 ## Outstanding App's characteristics
 
