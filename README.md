@@ -3,13 +3,9 @@
 
 ## Motivation
 
-Make the process of creating, writing and saving a Readme file easier by automating it.
+It makes the process of creating, writing and saving a Readme file easier by automating it as keeps track of all the points to include in the readme file so you dont forget.
 
-## How It works
-
-It keeps track of all the points to include in the readme file so you dont forget.
-
-## What it solves
+## Usage
 
 First it prompts the user with questions about the app/project he is creating.The user must start writing with capital letter and press enter at the end. When the user answers all the questions the readme file is created, and the answers are added to the file content. After that, the application saves it in the readme file for the user to retrieve later.
 
