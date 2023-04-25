@@ -95,13 +95,13 @@ ${ans14} `;
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license == 'Apache')
-    return '[![License](<https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0.>)'
+    return '![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)'
   
   if (license == 'GNU')
-    return '[![License: GPL v3](<https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0>)'
+    return '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)'
 
   if (license == 'MIT') {
-    return '[![License: MIT](<https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT>)'
+    return '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)'
   }
 
   return 'Licence not found.'
