@@ -57,12 +57,15 @@ ${ans2}
 
 ## Installation
 ${ans3}
+
 ## License
 ### Badge
 ${renderLicenseBadge(ans4)}
-License Link
+
+### License Link
 ${renderLicenseLink(ans4)}
-License Section
+
+### License Section
 ${renderLicenseSection(ans4)}
 
 ## Usage
@@ -92,10 +95,10 @@ ${ans14} `;
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license == 'Apache')
-    return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0.)'
+    return '[![License](<https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0.>)'
   
   if (license == 'GNU')
-    return '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'
+    return '[![License: GPL v3](<https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0>)'
 
   if (license == 'MIT') {
     return '[![License: MIT](<https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT>)'
@@ -109,10 +112,10 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if(license=='Apache'){
-    return '(https://opensource.org/licenses/Apache-2.0)'
+    return '<https://opensource.org/licenses/Apache-2.0>'
   }
   if(license == 'GNU')
-    return '(https://www.gnu.org/licenses/gpl-3.0)'
+    return '<https://www.gnu.org/licenses/gpl-3.0>'
 
   if(license == 'MIT')
     return '<https://opensource.org/licenses/MIT>'
@@ -161,7 +164,7 @@ function renderLicenseSection(license) {
 'Permission is hereby granted, free of charge, to' +
 'any person obtaining a copy of this software and '+
 'associated documentation files(the “Software”), to '+ 
-'deal in the Software without restriction, including '
+'deal in the Software without restriction, including '+
 'without limitation the rights to use, copy, modify, '+ 
 'merge, publish, distribute, sublicense, and / or '+
 'sell copies of the Software, and to permit persons '+ 
