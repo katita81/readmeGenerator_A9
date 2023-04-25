@@ -83,9 +83,9 @@ ${ans10}
 ## Screenshots
 ![${ans11}](${ans12})
 ## Link to deployed application
-${ans13}
+'<${ans13}'>
 ## Link to the walk through video
-${ans14} `;
+'<${ans14}>' `;
 
 
 
