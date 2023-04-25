@@ -27,7 +27,8 @@ Implement adding more images.
 
 ## Screenshots
 
-![photo1](./Develop/assets/imgs/screenshot.png)
+![promts and Answers](./assets/imgs/1_questionsAndAnswers.png)
+![view of Readme file](./assets/imgs/2_generatedReadme.png)
 
 ## Link to deployed application
 
