@@ -7,8 +7,7 @@ var introMessage="Please write the answer to the question starting with"+
 //Create an array of questions for user input
 var q0=introMessage;
 var q1="Enter the title of your project: ",
-    q2 ="Enter the description including What was your motivation to do this project" +
-        " and what the problem it solves",
+    q2 ="Enter the description of this project",
     q3="Enter instructions for Installation",
     q4 ="What licence are you using?",
     q5 = "Usage: Describe step by step how your app interacts with the user:",
